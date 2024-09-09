@@ -1,0 +1,82 @@
+@media screen and (max-width: 767.98px) {
+    .aqualunger{
+        display: none;
+    }
+    [class*="__container"]{
+		max-width: 700px;
+        top: 10px;
+        right: 80px;
+	}
+    .wrapper{
+        min-width: 400px;
+    }
+    .header{
+        min-width: 700px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .inscription{
+        position: relative;
+        display: flex;
+        background-size: cover;
+        min-width: 520px;
+        height: 642px;
+        top: 30px; 
+        right: 480px;
+    }
+    .stripes{
+        min-width: 519px;
+        height: 700px;
+    }
+    .stand{
+        bottom: 500px;
+        right: 50px;
+    }
+    .standimg{
+        min-width: 500px;
+        height: 520px;
+    }
+    .smallins{
+        min-width: 220px;
+        height: 165px;
+        left: -170px;
+    }
+    .yeldack{
+        width: 267px;
+        height: 500px; 
+        left: 30px;
+        top: 70px;
+    }
+    .stones{
+        bottom: 130px;
+        left: 5px;
+    }
+}
+@media screen and (max-width: 600px){
+    [class*="__container"]{
+        top: 5%;
+    }
+    .stripes{
+        min-width: 580px;
+        height: 876px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .inscription{
+        top: 8%;
+        min-width: 600px;
+        height: 700px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 450px) {
+    .no-webp body {
+        background-image: url(images/backgmobile.png);
+    }
+    .webp body{
+        background-image: url(img/backgmobile.webp);
+    }
+
+}
